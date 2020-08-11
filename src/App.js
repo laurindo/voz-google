@@ -9,7 +9,7 @@ function App() {
 
   const generate = () => {
     setLoading(true);
-    fetch(`http://127.0.0.1:5000/create?text=${text}`).then(resp => {
+    fetch(`https://meme-google-voice.herokuapp.com/create?text=${text}`).then(resp => {
       resp.json().then(data => {
         setLoading(false);
         setBase64("data:audio/mp3;base64," + data.text.replace(/\s/g, '').trim())
