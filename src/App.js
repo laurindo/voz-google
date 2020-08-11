@@ -44,13 +44,16 @@ function App() {
           </div>
 
           <div className="share">Compartilhe com seus amigos</div>
+          
           <WhatsappShareButton url="https://laurindo.github.io/voz-google/">
             <img src="https://res.cloudinary.com/luneswallet/image/upload/v1597171675/voz-google/whatsapp.png" alt="zap"/>
           </WhatsappShareButton>&nbsp;&nbsp;
-          <TelegramShareButton>
+
+          <TelegramShareButton url="https://laurindo.github.io/voz-google/">
             <img src="https://res.cloudinary.com/luneswallet/image/upload/v1597171675/voz-google/telegram.png" alt="telegram"/>
           </TelegramShareButton>&nbsp;&nbsp;
-          <FacebookShareButton>
+
+          <FacebookShareButton url="https://laurindo.github.io/voz-google/">
             <img src="https://res.cloudinary.com/luneswallet/image/upload/v1597171910/voz-google/facebook.png" alt="facebook"/>
           </FacebookShareButton>
         </div>
