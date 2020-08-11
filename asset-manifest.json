@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/voz-google/static/css/main.2a2cfb0a.chunk.css",
+    "main.js": "/voz-google/static/js/main.cddb3a50.chunk.js",
+    "main.js.map": "/voz-google/static/js/main.cddb3a50.chunk.js.map",
+    "runtime-main.js": "/voz-google/static/js/runtime-main.27073961.js",
+    "runtime-main.js.map": "/voz-google/static/js/runtime-main.27073961.js.map",
+    "static/js/2.1cb1260e.chunk.js": "/voz-google/static/js/2.1cb1260e.chunk.js",
+    "static/js/2.1cb1260e.chunk.js.map": "/voz-google/static/js/2.1cb1260e.chunk.js.map",
+    "index.html": "/voz-google/index.html",
+    "precache-manifest.5ae65f022074948a5c9013ce05df1b30.js": "/voz-google/precache-manifest.5ae65f022074948a5c9013ce05df1b30.js",
+    "service-worker.js": "/voz-google/service-worker.js",
+    "static/css/main.2a2cfb0a.chunk.css.map": "/voz-google/static/css/main.2a2cfb0a.chunk.css.map",
+    "static/js/2.1cb1260e.chunk.js.LICENSE.txt": "/voz-google/static/js/2.1cb1260e.chunk.js.LICENSE.txt",
+    "static/media/voice.png": "/voz-google/static/media/voice.6702341d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27073961.js",
+    "static/js/2.1cb1260e.chunk.js",
+    "static/css/main.2a2cfb0a.chunk.css",
+    "static/js/main.cddb3a50.chunk.js"
+  ]
+}
