@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/voz-google/static/css/main.2a2cfb0a.chunk.css",
-    "main.js": "/voz-google/static/js/main.cddb3a50.chunk.js",
-    "main.js.map": "/voz-google/static/js/main.cddb3a50.chunk.js.map",
+    "main.js": "/voz-google/static/js/main.a328545d.chunk.js",
+    "main.js.map": "/voz-google/static/js/main.a328545d.chunk.js.map",
     "runtime-main.js": "/voz-google/static/js/runtime-main.27073961.js",
     "runtime-main.js.map": "/voz-google/static/js/runtime-main.27073961.js.map",
     "static/js/2.1cb1260e.chunk.js": "/voz-google/static/js/2.1cb1260e.chunk.js",
     "static/js/2.1cb1260e.chunk.js.map": "/voz-google/static/js/2.1cb1260e.chunk.js.map",
     "index.html": "/voz-google/index.html",
-    "precache-manifest.2a2d59970d9c6ece6f42cf6ef5cb2c32.js": "/voz-google/precache-manifest.2a2d59970d9c6ece6f42cf6ef5cb2c32.js",
+    "precache-manifest.38a970bd06b2692a1de19cf27ef1f7f5.js": "/voz-google/precache-manifest.38a970bd06b2692a1de19cf27ef1f7f5.js",
     "service-worker.js": "/voz-google/service-worker.js",
     "static/css/main.2a2cfb0a.chunk.css.map": "/voz-google/static/css/main.2a2cfb0a.chunk.css.map",
     "static/js/2.1cb1260e.chunk.js.LICENSE.txt": "/voz-google/static/js/2.1cb1260e.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.27073961.js",
     "static/js/2.1cb1260e.chunk.js",
     "static/css/main.2a2cfb0a.chunk.css",
-    "static/js/main.cddb3a50.chunk.js"
+    "static/js/main.a328545d.chunk.js"
   ]
 }

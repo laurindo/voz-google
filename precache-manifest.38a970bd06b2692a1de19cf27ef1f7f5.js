@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da727b8c55c18a1730a276f7d4e0ceb3",
+    "revision": "0831198fa01e04bafa8be46852abe523",
     "url": "/voz-google/index.html"
   },
   {
-    "revision": "ad7d57d3802ca5b72a12",
+    "revision": "9d7206577394d753fb07",
     "url": "/voz-google/static/css/main.2a2cfb0a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/voz-google/static/js/2.1cb1260e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad7d57d3802ca5b72a12",
-    "url": "/voz-google/static/js/main.cddb3a50.chunk.js"
+    "revision": "9d7206577394d753fb07",
+    "url": "/voz-google/static/js/main.a328545d.chunk.js"
   },
   {
     "revision": "892fbfcd5e1bafd88217",
