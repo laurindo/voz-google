@@ -1,22 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import voiceImage from './voice.png'
 
 function App() {
   const [base64string, setBase64] = useState("");
   const [text, setText] = useState("");
-
-  // useEffect(() => {
-  //   fetch("http://127.0.0.1:5000/create?text=hello").then(resp => {
-  //     resp.json().then(data => {
-  //       setBase64("data:audio/mp3;base64," + data.text.replace(/\s/g, '').trim())
-  //     });
-  //   });
-  // }, []);
+  const [loading, setLoading] = useState(false);
 
   const generate = () => {
+    setLoading(true);
     fetch(`http://127.0.0.1:5000/create?text=${text}`).then(resp => {
       resp.json().then(data => {
+        setLoading(false);
         setBase64("data:audio/mp3;base64," + data.text.replace(/\s/g, '').trim())
       });
     });
@@ -28,6 +23,7 @@ function App() {
       <h3>Voz do Google</h3>
       <input placeholder="Digite alguma texto" value={text} onChange={e => setText(e.target.value)}/>
       <button onClick={generate}>Gerar Áudio</button>
+      {loading && <div>carregando...</div>}
       {base64string ? (
         <div>
           <audio controls>
