@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
-import voiceImage from './voice.png'
+import voiceImage from './voice.png';
+import {
+  FacebookShareButton,
+  TelegramShareButton,
+  WhatsappShareButton
+} from "react-share";
+
 
 function App() {
   const [base64string, setBase64] = useState("");
@@ -9,6 +15,8 @@ function App() {
 
   const generate = () => {
     setLoading(true);
+    setBase64("");
+    debugger;
     fetch(`https://meme-google-voice.herokuapp.com/create?text=${text}`).then(resp => {
       resp.json().then(data => {
         setLoading(false);
@@ -34,6 +42,17 @@ function App() {
               Click to download
             </a>
           </div>
+
+          <div className="share">Compartilhe com seus amigos</div>
+          <WhatsappShareButton url="https://laurindo.github.io/voz-google/">
+            <img src="https://res.cloudinary.com/luneswallet/image/upload/v1597171675/voz-google/whatsapp.png" alt="zap"/>
+          </WhatsappShareButton>&nbsp;&nbsp;
+          <TelegramShareButton>
+            <img src="https://res.cloudinary.com/luneswallet/image/upload/v1597171675/voz-google/telegram.png" alt="telegram"/>
+          </TelegramShareButton>&nbsp;&nbsp;
+          <FacebookShareButton>
+            <img src="https://res.cloudinary.com/luneswallet/image/upload/v1597171910/voz-google/facebook.png" alt="facebook"/>
+          </FacebookShareButton>
         </div>
       ) : null}
     </div>
