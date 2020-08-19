@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b705ebda6976329223a7a006b919591",
+    "revision": "69f4ef78c1d87dcfe75bc69015113a0b",
     "url": "/voz-google/index.html"
   },
   {
