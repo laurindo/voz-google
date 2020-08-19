@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <img src={voiceImage} alt="voz do google" className="voice-image"/>
       <h3>Voz do Google</h3>
-      <input placeholder="Digite alguma texto" value={text} onChange={e => setText(e.target.value)}/>
+      <input placeholder="Digite algum texto" value={text} onChange={e => setText(e.target.value)}/>
       <button onClick={generate}>Gerar Áudio</button>
       {loading && <div>carregando...</div>}
       {base64string ? (
@@ -42,8 +42,11 @@ function App() {
               Click to download
             </a>
           </div>
+        </div>
+      ) : null}
 
-          <div className="share">Compartilhe com seus amigos</div>
+      <div>
+        <div className="share">Compartilhe com seus amigos</div>
           
           <WhatsappShareButton url="https://laurindo.github.io/voz-google/">
             <img src="https://res.cloudinary.com/luneswallet/image/upload/v1597171675/voz-google/whatsapp.png" alt="zap"/>
@@ -56,8 +59,7 @@ function App() {
           <FacebookShareButton url="https://laurindo.github.io/voz-google/">
             <img src="https://res.cloudinary.com/luneswallet/image/upload/v1597171910/voz-google/facebook.png" alt="facebook"/>
           </FacebookShareButton>
-        </div>
-      ) : null}
+      </div>
     </div>
   );
 }
